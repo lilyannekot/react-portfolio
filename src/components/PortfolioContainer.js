@@ -20,4 +20,13 @@ export default function PortfolioContainer() {
     }
     return <Contact />;
   };
+
+  const pageChange = (page) => setCurrentPage(page);
+
+  return (
+    <div>
+      <NavTabs currentPage={currentPage} pageChange={pageChange} />
+      {renderPage()}
+    </div>
+  );
 }

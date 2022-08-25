@@ -3,6 +3,15 @@ import React from "react";
 function NavTabs({ currentPage, pageChange }) {
   return (
     <ul className="nav nav-tabs">
+        <li className="nav-item">
+        <a
+          href="#about"
+          onClick={() => pageChange("About")}
+          className={currentPage === "About" ? "nav-link active" : "nav-link"}
+        >
+          About
+        </a>
+      </li>
       <li className="nav-item">
         <a
           href="#portfolio"
@@ -12,15 +21,6 @@ function NavTabs({ currentPage, pageChange }) {
           }
         >
           Portfolio
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => pageChange("About")}
-          className={currentPage === "About" ? "nav-link active" : "nav-link"}
-        >
-          About
         </a>
       </li>
       <li className="nav-item">

@@ -25,7 +25,7 @@ export default function Projects() {
       <Card>
         <Card.Img src="" />
         <Card.Body>
-          <Card.Title>Project 2</Card.Title>
+          <Card.Title>Date Night Bites</Card.Title>
           <Card.Text>
             Description to Come
             <Card br></Card>

@@ -1,0 +1,42 @@
+:root {
+    --beige: #edc7b7;
+    --ivory: #eee2d2;
+    --grey: #bab2b5;
+    --dark-blue: #123c69;
+    --pink: #ac3b61;
+}
+
+.btn {
+    background-color: var(--dark-blue);
+    color: var(ivory);
+}
+
+h1 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    background-color: var(--dark-blue);
+    color: var(--ivory);
+    height: 200px;
+}
+
+.contact-form {
+    justify-content: center;
+    text-align: center;
+    background-color: var(--beige);
+    color: var(--dark-blue);
+}
+
+.form-label {
+    padding-bottom: 15px;
+}

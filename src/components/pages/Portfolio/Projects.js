@@ -6,7 +6,10 @@ export default function Projects() {
   return (
     <div>
       <Card>
-        <Card.Img src="public/assets/Volunteerists.png" alt="Arms raised in the air with hearts on the palms"/>
+        <Card.Img
+          src=".././public/assets/Volunteerists.png"
+          alt="Arms raised in the air with hearts on the palms"
+        />
         <Card.Body>
           <Card.Title>Volunteerist</Card.Title>
           <Card.Text>
@@ -19,24 +22,28 @@ export default function Projects() {
               Deployed Link
             </Card.Link>
           </Card.Text>
-          <Button variant="primary">Learn More</Button>
+          <Button className="btn">Learn More</Button>
         </Card.Body>
       </Card>
       <Card>
-        <Card.Img src="" />
+        <Card.Img
+          src=".././public/assets/date-night-bites.jpeg"
+          alt="couple cooking together in the kitchen"
+        />
         <Card.Body>
           <Card.Title>Date Night Bites</Card.Title>
           <Card.Text>
-            Description to Come
+            Start the night off right with a deletable meal paired with a spicy
+            cocktail and that special someone.
             <Card br></Card>
-            <Card.Link a href="">
+            <Card.Link a href="https://github.com/lilyannekot/date-night-bites">
               Repository Link
             </Card.Link>
-            <Card.Link a href="">
+            <Card.Link a href="https://lilyannekot.github.io/date-night-bites/">
               Deployed Link
             </Card.Link>
           </Card.Text>
-          <Button variant="primary">Learn More</Button>
+          <Button className="btn">Learn More</Button>
         </Card.Body>
       </Card>
       <Card>
@@ -53,7 +60,7 @@ export default function Projects() {
               Deployed Link
             </Card.Link>
           </Card.Text>
-          <Button variant="primary">Learn More</Button>
+          <Button className="btn">Learn More</Button>
         </Card.Body>
       </Card>
       <Card>
@@ -70,7 +77,7 @@ export default function Projects() {
               Deployed Link
             </Card.Link>
           </Card.Text>
-          <Button variant="primary">Learn More</Button>
+          <Button className="btn">Learn More</Button>
         </Card.Body>
       </Card>
       <Card>
@@ -87,7 +94,7 @@ export default function Projects() {
               Deployed Link
             </Card.Link>
           </Card.Text>
-          <Button variant="primary">Learn More</Button>
+          <Button className="btn">Learn More</Button>
         </Card.Body>
       </Card>
       <Card>
@@ -104,7 +111,7 @@ export default function Projects() {
               Deployed Link
             </Card.Link>
           </Card.Text>
-          <Button variant="primary">Learn More</Button>
+          <Button className="btn">Learn More</Button>
         </Card.Body>
       </Card>
     </div>

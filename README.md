@@ -1,4 +1,51 @@
-# Getting Started with Create React App
+# My React Portfolio
+
+## Project Description
+
+This project entailed creating a portfolio using React! When heading to the [deployed site](https://lilyannekot.github.io/react-portfolio/), you'll find an About page, Portfolio page with past projects, a Resume page where you can download my resume, and a Contact page with a form to send me a message.
+
+## Table of Contents
+
+- [Languages and Technology Used](#languages-and-technology-used)
+- [Deployed Link](#deployed-link)
+- [Code Snippet](#code-snippet)
+- [Author Links](#author-links)
+
+## Languages and Technology Used
+
+- CSS
+- HTML
+- JavaScript
+- React
+
+## Deployed Link
+
+The deployed portfolio can be found [HERE](https://lilyannekot.github.io/react-portfolio/)!
+
+## Code Snippet
+
+The code below creates a renderPage function and checks to see what the current page requested is. If the "About" page is selected, the page is rendered by accessing the About.js file through an import. 
+
+```
+const renderPage = () => {
+    if (currentPage === "About") {
+      return <About />;
+    }
+    if (currentPage === "Portfolio") {
+      return <Portfolio />;
+    }
+    if (currentPage === "Resume") {
+      return <Resume />;
+    }
+    return <Contact />;
+  };
+};
+```
+
+## Author Links
+
+- [GitHub](https://github.com/lilyannekot)
+- [LinkedIn](https://www.linkedin.com/in/lilykot/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
